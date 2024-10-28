@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100vh;
+    }
+    
+    #gameCanvas {
+    border: 1px solid black;
+    width: 90vw;
+    max-width: 900px;
+    height: 90vw;
+    max-height: 900px;
+    }
+    
+    #buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    }
+    
+    button {
+        width: 250px;
+        height: 250px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #2980b9;
+    }
